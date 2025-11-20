@@ -1,7 +1,7 @@
 import streamlit as st
 import streamlit.components.v1 as components
 
-st.set_page_config(page_title="TerraScope — High-End Neural Mesh", layout="wide")
+st.set_page_config(page_title="TerraScope — Europes Neural Mesh", layout="wide")
 
 st.markdown("""
 <style>
