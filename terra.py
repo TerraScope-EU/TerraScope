@@ -1,4 +1,3 @@
-# terra_expert_highend.py  ← Version mit GERADEN Linien statt Bezier-Kurven
 import streamlit as st
 import streamlit.components.v1 as components
 
@@ -20,7 +19,7 @@ HTML = """
 
 <script>
 // ---------------------------
-// TerraScope High-End — JS (GERADE LINIEN statt Bezier)
+// TerraScope High-End — JS
 // ---------------------------
 
 function RNG(seed = 1337){
@@ -94,7 +93,7 @@ const NODES = [];
   }
 })();
 
-// =================== GERADE LINIEN STATT BEZIER ===================
+// =================== GERADE LINIEN ===================
 const EDGES = [];
 (function linkNodes(){
   const maxNeighbors = 6;
@@ -310,7 +309,7 @@ st.markdown("""
   -webkit-background-clip:text;-webkit-text-fill-color:transparent;'>TerraScope — High-End Neural Mesh</h1>
 """, unsafe_allow_html=True)
 
-st.write("**Gerade, direkte Verbindungen** – technisch, klar, dezentral. Perfekt für den professionellen Look.")
+st.write("**TerraScope offers a European, autonomous alternative to traditional EO infrastructures, combining high-resolution optics, local analytics, and resilient terrestrial networking to support science, policy, agriculture, and crisis management.")
 
 st.markdown("---")
 c1, c2, c3 = st.columns(3)
