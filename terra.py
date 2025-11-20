@@ -309,7 +309,7 @@ st.markdown("""
   -webkit-background-clip:text;-webkit-text-fill-color:transparent;'>TerraScope — High-End Neural Mesh</h1>
 """, unsafe_allow_html=True)
 
-st.write("**TerraScope offers a European, autonomous alternative to traditional EO infrastructures, combining high-resolution optics, local analytics, and resilient terrestrial networking to support science, policy, agriculture, and crisis management.")
+st.write("TerraScope offers a European, autonomous alternative to traditional EO infrastructures, combining high-resolution optics, local analytics, and resilient terrestrial networking to support science, policy, agriculture, and crisis management.")
 
 st.markdown("---")
 c1, c2, c3 = st.columns(3)
